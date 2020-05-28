@@ -1,0 +1,483 @@
+
+*{
+		font-size: 1.0vw;
+}
+@font-face{
+    font-family: 'Helvetica-Light';
+	src: url('/fonts/Helvetica-Light');
+}
+.helvetica-light{
+	 font-family: 'Helvetica-Light';
+}
+/*nadvar start*/
+a.nav-link {
+    color: #262626;
+    font-size: 1.0vw;
+}
+.navbar{
+position: absolute!important;
+}
+.navcorp{
+	 font-family: 'Helvetica-Light';
+	       padding-left: 6.8vw !important;
+    background-color: #ffffffc8;
+    padding-right: 6.8vw !important;
+    z-index: 100;
+    width: 100%;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    height: 4.7vw;
+
+}
+.icon_corplaw{
+     background-image: url("/img/icon_corplaw.png");
+        width:13.8vw;
+        height: 2.6vw;
+        background-size: 13.8vw;
+    }
+
+.slider_icon{
+		background-image: url(/img/slider_icon.png);
+    height: 49.1vw;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+   position: absolute;
+	}
+.btn_8-4{
+	width: 8.4vw;
+	height: 2.6vw;
+	border: 0;
+cursor: pointer;
+}
+.btn_red{
+		    background-color: #8b1f1d;
+		    color: white;
+		    margin-left: 1.0vw;
+
+	}
+	.btn_red:hover{
+    background: #711715;
+}
+	.btn_white{
+		 color: #8b1f1d;
+    box-shadow: 0px 0px 4px 1px #dededee0;
+}
+.nav>li>a:focus{
+    text-decoration: none;
+    background-color: #ffffff94!important;
+}
+ .nav>li>a:hover{
+    text-decoration: none;
+    background-color: #ffffff94!important;
+}
+	.btn_white:hover{
+background: #f9f9f9;
+}
+/*nadvar end*/
+.section_header{
+font-family: 'Roboto Slab', serif;
+}
+.cont_services{
+margin: auto;
+
+}
+.section_main_services{
+	background-color:#fdfafb;
+}
+.col_service_white{
+	background-color:white;
+	text-align: center;
+	font-family: 'Roboto Slab', serif;
+	color: #3c3c3c;
+
+}
+.title_services_section{
+    height: 10.2vw;
+    background-color: white;
+    text-align: center;
+    font-family: "Roboto Slab", serif;
+    color: #3c3c3c;
+    padding-top: 3.6vw;
+}
+.border_bottom{
+	border-bottom: 1px solid #e8e5e5;
+    width: 8.1vw;
+    margin: auto;
+    padding-top: 0.7vw;
+}
+.section_items_services{
+    margin-left: 10vw;
+    margin-right: 10vw;
+    font-family: 'Roboto Slab', serif;
+    color: #3c3c3c;
+	}
+.circle_icon{
+	border: solid 1px #8b1f1d;
+    width: 1.2vw;
+    height: 1.2vw;
+    margin: auto;
+    border-radius: 2.1vw;
+    color: #8b1f1d;
+    margin-top: 0.8vw;
+    line-height: 1vw;
+    padding-left: 0.01vw;
+    cursor: pointer;
+
+}
+.text_service{
+    width: 6.1vw;
+    margin: auto;
+    text-align: center;
+    font-size: 1.1vw;
+}
+.space_btn_service{
+padding: 2.3vw;
+cursor: pointer;
+    border-bottom: solid 1px #f7f7f7;
+}
+.img_about_us{
+   background-image: url(/img/about_us.png);
+    height: 29.2vw;
+    background-size: 43.3vw;
+    background-repeat: no-repeat;
+    position: relative;
+    left: -0vw;
+}
+.text_about_us{
+        padding-top: 5.1vw;
+    margin-left: -7.9vw;
+    font-family: 'Roboto Slab', serif;
+color: #3c3c3c;
+}
+.line_red{
+border-bottom: solid 1px #9e4543;
+    margin-left: 1.1vw;
+    padding-top: 1.1vw;
+    margin-bottom: 2.5vw;
+}
+.section_about_us{
+    padding-top: 5.3vw;
+    padding-bottom: 2.1vw;
+}
+.img_map{
+background-size: 25.4vw;
+    height: 34.8vw;
+    background-image: url(/img/map.png);
+    background-repeat: no-repeat;
+    background-position: 5.1vw!important;
+}
+.line_red_map {
+    border-bottom: solid 1px #9e4543;
+    margin-left: 1.1vw;
+    padding-top: 1.1vw;
+    margin-bottom: 1.9vw;
+    position: relative;
+    left: 3.1vw;
+}
+.text_section_map{
+    color: #262626;
+    font-family: "Helvetica-Light";
+    font-style: oblique;
+    font-size: 1.3vw;
+    font-weight: 100;
+}
+.robot_font{
+	   font-family: 'Roboto Slab', serif;
+}
+.white_text{
+width: 100vw;
+    background: #fffcfc;
+}
+.text_map_right{
+text-align: right!important;
+    padding-top: 11.1vw;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+a{
+	font-size: 0.8vw;
+    color:#797979;
+    font-family: Helvetica-Light;
+        line-height: 1.9vw;
+}
+a:hover{
+   list-style: none;
+    color: #8b2526;
+    text-decoration: none;
+}
+}
+.ul_propied{
+    width: 17.7vw;
+    position: relative;
+    left: -5vw;
+    border-left: 1px solid #e0e0e0;
+    padding-left: 1.1vw;
+    border-right: 1px solid #cacaca;
+}
+.ul_straight{
+border-left: solid #d4d0d0 1px;
+    padding-left: 1vw;
+    position: relative;
+    left: -0.9vw;
+    border-right: solid gainsboro 1px;
+    width: 9.9vw;
+}
+.text_info_footer{
+line-height: 1.1vw;
+    border-right: solid #d4d4d4 1px;
+}
+.ul_procedure{
+        width: 13.1vw;
+    position: relative;
+    left: -2.7vw;
+}
+.item_one_straight{
+position: relative;
+    left: -1.2vw;
+}
+.color_footer_year{
+        background-color: #8b1f1d;
+    color: white;
+       padding-top: 0.9vw;
+    font-family: Helvetica-Light;
+}
+img {
+    width: 2vw;
+    height: 2vw;
+    margin-left: 0.6vw;
+}
+.social{
+    height: 6.1vw;
+    padding-top: 2vw;
+    color: gray;
+    p{
+font-size: 0.9vw;
+    color: #797979;
+    font-family: Helvetica-Light;
+    line-height: 1.9vw;
+    padding-right: 1vw;
+    }
+}
+footer{
+    box-shadow: -1px -3px 9px -4px rgba(128,128,128,1);
+    padding-top: 3.1vw;
+    margin-top: 2.1vw;
+}
+/* Style the tab */
+.tab {
+    overflow: hidden;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #fff;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #fff;
+}
+
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+    box-shadow: 0px 0px 14px -1px rgba(0, 0, 0, 0.13);
+    padding: 2.1vw;
+    border-radius: 0.3vw;
+}
+
+.circle_face{
+    background-size: 3vw;
+    height: 3vw;
+    background-image: url(/img/img.png);
+    background-repeat: no-repeat;
+    margin-left: 2.1vw;
+}
+.img_datia{
+background-size:7.8vw;
+height: 2.6vw;
+background-image: url(/img/datia.png);
+background-repeat: no-repeat;
+
+}
+#btn_numbers, .btn_1 , .btn_2{
+width: 0vw;
+    height: 0vw;
+    background-color: white;
+    margin-right: 2.1vw !important;
+    box-shadow: 1px 2px 3px 0px #d8d8d8;
+    margin: 0.4vw;
+    color: #3f4246;
+    padding: 01vw;
+p{
+    line-height: 0.1vw;
+    font-weight: 700;
+    position: relative;
+    left: -0.3vw;
+    font-size: 0.9vw;
+}
+}
+#btn_numbers:hover {
+        background-color: #892122;
+    color: white;
+}
+#btn_numbers:focus {
+    outline: none;
+}
+#result_one{
+    display: block;
+}
+.exit{
+    padding-right: 3.1vw;
+    padding-left: 3.1vw;
+    padding-top: 3.1vw;
+    padding-bottom: 3.1vw;
+}
+.input_form_contact{
+    width: 17.1vw;
+    height: 2.5vw;
+    margin-bottom: 0.8vw;
+    float: right;
+    padding-left: 1.1vw;
+    font-family: "Helvetica-Light";
+    font-size: 0.9vw;
+}
+.text_space{
+border: 1px solid #cecbcb;
+    width: 64.1vw;
+    height: 12.4vw;
+    margin-left: -0.9vw;
+    padding-left: 1.1vw;
+    padding-top: 1.1vw;
+}
+.carousel {
+    position: relative;
+    top: 13.1vw;
+    width: 35.1vw;
+}
+.carousel-indicators{
+top: 18.1vw;
+    left: -2.9vw;
+}
+
+.btn_red_slide{
+   width: 10.1vw;
+    margin-left: 0;
+    margin-top: 1.1vw;
+    background-color: #8b1f1d;
+    color: white;
+}
+.line_red_slide {
+    border-bottom: solid 1px #d28e8c;
+    margin-left: 1.1vw;
+    padding-top: 1.1vw;
+    margin-bottom: 1vw;
+}
+.section_atention, .section_contact{
+width: 98%;
+}
+
+
+/*view list lawyears start*/
+.section_lawyears{
+    padding-top: 10.1vw;
+    .btn-white{
+    border: solid 1px #e0e0e0;
+    position: relative;
+    top: -0.5vw;
+    color: #868484;
+    font-family: Helvetica-Light;
+    font-size: 0.9vw;
+    padding-left: 2.1vw;
+}
+.title_view_lawyears{
+font-family: 'Roboto Slab', serif;
+font-size: 2.9vw;
+}
+.text_find{
+    font-family: Helvetica-Light;
+    font-size: 0.9vw;
+    color: gray;
+    margin-right: -1.4vw;
+}
+.glyphicon{
+    font-size: 0.6vw;
+    margin-left: 0.7vw;
+    position: absolute;
+    top: 0.4vw;
+    color: gray;
+}
+
+}
+.profile_lawyear{
+background-image: url(/img/foto_perfil.png);
+    background-size: 41.5vw;
+    height: 41.7vw;
+    background-repeat: no-repeat;
+    width: 35.5vw;
+    position: relative;
+    left: -1.9vw;
+}
+.space_item_lawyear{
+       position: relative;
+    left: -1.9vw;
+    padding-right: 0;
+    width: 60.1vw;
+}
+.space_name_lawyear{
+    background-color: #fffcfc;
+    position: relative;
+    padding: 2.1vw;
+        font-family: Helvetica-Light;
+    font-size: 0.8vw;
+}
+.space_expirent_lawyear {
+    background-color: #fff;
+    position: relative;
+    padding: 2.1vw;
+    font-family: Helvetica-Light;
+    font-size: 0.8vw;
+    height: 27.2vw;
+    border-bottom: solid #e6e6e6 1px;
+}
+.items_descrition_view{
+    display: flex;
+    font-size: 0.9vw;
+    font-family: Helvetica-Light;
+    justify-content: space-evenly;
+        position: relative;
+    left: -1.3vw;
+}
+.section_lawyears .glyphicon {
+    font-size: 0.6vw;
+    margin-left: -0.9vw;
+    position: absolute;
+    top: 0.4vw;
+    color: gray;
+}
+
+
+/*view list lawyears end*/
+
+
+
+
+
+
+
