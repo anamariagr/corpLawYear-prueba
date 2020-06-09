@@ -9,14 +9,12 @@ corplawyear.com/ = Route:: get('contact', function)
 
 
 */
-
-Route::view('/index','index')->name('index')->name('index');
-Route::view('/lawyears', 'lawyears')->name('lawyears');
-Route::view('/publications', 'publications')->name('publications');
-Route::view('/customers', 'customers')->name('customers');
-Route::view('/contact', 'contact')->name('contact');
-Route::view('/services', 'services')->name('services');
-Route::view('/lineContact', 'lineContact')->name('lineContact');
+Route::get('services/{slug}','ServiceController@showService');
+Route::get('/','HomeController@home')->name('index');
+Route::get('/lawyers','LawyersController@getLawyers')->name('lawyers');
+Route::get('/publications','PublicationsController@index')->name('publications');
+Route::get('/customers','CustomersController')->name('customers');
+Route::get('/responsabilidad_social','ResponsabilitysController')->name('service_20');
 
 
 
@@ -25,4 +23,7 @@ Route::view('/lineContact', 'lineContact')->name('lineContact');
 
 
 
+
+
+Auth::routes();
 
